@@ -1,4 +1,4 @@
-trios-installer
+<b>TRIOS Installer</b>
 
 Live installer for TRIOS.
 

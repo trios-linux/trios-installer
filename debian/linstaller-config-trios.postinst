@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+if [ ! -h /etc/linstaller/default ]; then
+	ln -s /etc/linstaller/trios /etc/linstaller/default
+	else
+	:
+exit
+fi

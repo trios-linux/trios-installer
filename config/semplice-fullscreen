@@ -1,0 +1,8 @@
+## FULLSCREEN LINSTALLER CONFIGURATION FILE FOR SEMPLICE
+
+[linstaller:extends]
+source = semplice
+
+[frontend:glade]
+fullscreen = True
+notifications = False

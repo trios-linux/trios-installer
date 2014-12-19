@@ -1,0 +1,39 @@
+## BASE LINSTALLER CONFIGURATION FILE FOR SEMPLICE -- END USER WILL NOT (HOPEFULLY) NEED THIS
+
+[linstaller]
+distribution = Semplice
+modules = uefidetect.inst welcome.front language.front update.front timezone.front userhost.front partdisks.front bootloader.front bricks.front mirrorselect.front summary.front partdisks.inst unsquash.inst virtualpartitions.inst language.inst timezone.inst network.inst supportrepo.inst bootloader.inst bricks.inst userhost.inst debian.inst semplice.inst mirrorselect.inst clean.inst fstab.inst end.front
+special = partdisks.inst unsquash.inst virtualpartitions.inst supportrepo.inst
+
+[module:language]
+ask = True
+
+[module:timezone]
+ask = True
+
+[module:partdisks]
+swap_noformat = True
+
+[module:unsquash]
+image = /lib/live/mount/medium/live/filesystem.squashfs
+
+[module:debian]
+remove = /lib/live/mount/medium/live/filesystem.packages-remove
+
+[module:update]
+packages = linstaller linstaller-frontend-cli linstaller-frontend-glade linstaller-modules-base linstaller-config-semplice alan-ext-linstaller
+
+[module:mirrorselect]
+enable_sources = False
+sets = debian semplice changes
+
+[module:bootloader]
+bootloader = grub
+# Workaround to get systemd working, see
+# https://github.com/semplice/meta/commit/e5399d0523761eec3505da24add52cebc44f5452
+# for more details.
+custom_init = /lib/systemd/systemd
+
+[module:supportrepo]
+path = file:///lib/live/mount/medium/support
+binarydir = ./

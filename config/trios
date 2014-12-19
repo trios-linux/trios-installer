@@ -1,0 +1,16 @@
+## MAIN LINSTALLER CONFIGURATION FILE FOR TRIOS
+
+[linstaller:extends]
+source = trios-base
+
+# Do not ask for language, use the system's one instead.
+#[module:language]
+#ask = False
+
+# Do not ask for timezone, use the system's one instead.
+#[module:timezone]
+#ask = False
+
+# Disable root
+#[module:userhost]
+#root = None

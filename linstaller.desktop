@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Install TRIOS
+Name[sr]=Инсталирај ТРИОС
+Name[sr@latin]=Instaliraj TRIOS
+Comment=Launch the TRIOS installation wizard.
+Comment[sr]=Покрени ТРИОС инсталациони програм
+Comment[sr@latin]=Pokreni TRIOS instalacioni program
+Exec=linstaller_crash_wrapper.sh -c=trios -f=glade start
+Icon=gtk-save
+Terminal=false
+Type=Application
+Categories=System;
+Name[en_US.utf8]=Install TRIOS

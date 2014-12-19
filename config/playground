@@ -1,0 +1,37 @@
+## !!! LINSTALLER TEST CONFIGURATION! IT DROPS /dev/sda1!! DO NOT USE IT!! FOR INTERNAL USE ONLY!! !!!
+## You have been warned.
+
+[linstaller:extends]
+source = semplice
+
+[linstaller]
+distribution = LOLinux
+#modules = <old> <remove:welcome.front> <remove:userhost.inst> <remove:timezone.inst> <remove:language.inst>
+
+[module:language]
+ask = False
+
+[module:bootloader]
+device = root
+
+[module:userhost]
+userfullname = Eugenio Paolantonio
+username = g7
+password = tepiacerebbe
+rootpassword = lololololo
+hostname = g7box
+
+[module:timezone]
+timezone = Europe/Madrid
+
+[module:partdisks]
+root = /dev/sda1
+root_filesystem = ext4
+swap = /dev/sda5
+swap_noformat = True
+
+[module:unsquash]
+image = /mnt/semp/live/filesystem.squashfs
+
+[module:debian]
+remove = /mnt/semp/live/filesystem.packages-remove

@@ -32,6 +32,9 @@ class Install(module.Install):
 		# Remove /lib/live directory. Not needed on installed system. Can cause problems or "confuse" some apps.
 		if os.path.exists("/lib/live"):
 			shutil.rmtree("/lib/live")
+			
+		if os.patch.exists("/live-build"):
+			shutil.rmtree("/live-build")
 
 class Module(module.Module):
 	def _associate_(self):

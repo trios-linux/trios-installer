@@ -2029,6 +2029,16 @@ option for your system.</property>
                         <property name="stock_id">gtk-remove</property>
                       </object>
                       <packing>
+                        <property name="expand">True</property>
+                        <property name="homogeneous">True</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorToolItem" id="toolbar_separator">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                      <packing>
                         <property name="expand">False</property>
                         <property name="homogeneous">True</property>
                       </packing>

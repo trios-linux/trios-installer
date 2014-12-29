@@ -1756,7 +1756,7 @@ class Frontend(glade.Frontend):
 					# user to apply ASAP in order to make it usable for
 					# the VGmanage dialog...
 					subtext = _("You need to apply your changes in order to use the new LVM physical volume.")
-				self.set_header("hold", _("You have some unsaved changes!"), subtext)
+				self.set_header("hold", _("You have some unsaved changes! Apply them to continue!"), subtext)
 				self.change_button_bg(self.apply_button, self.objects["parent"].return_color("ok"))
 				
 				if not res.path in self.touched: self.touched.append(res.path)
@@ -1892,7 +1892,7 @@ class Frontend(glade.Frontend):
 					# user to apply ASAP in order to make it usable for
 					# the VGmanage dialog...
 					subtext = _("You need to apply your changes in order to use the new LVM physical volume.")
-				self.set_header("hold", _("You have some unsaved changes!"), subtext)
+				self.set_header("hold", _("You have some unsaved changes! Apply them to continue!"), subtext)
 
 				if path in self.previously_changed: self.previously_changed.remove(path)
 				if not path in self.touched: self.touched.append(path)
@@ -2067,7 +2067,7 @@ class Frontend(glade.Frontend):
 					self.set_header("error", _("Unable to remove the partition."), _("Why did it happen?!"))
 				else:
 					# Ok!
-					self.set_header("hold", _("You have some unsaved changes!"), _("Use the Apply button to save them."))
+					self.set_header("hold", _("You have some unsaved changes! Apply them to continue!"), _("Use the Apply button to save them."))
 				
 				if not self.get_device_from_selected().path in self.touched: self.touched.append(self.get_device_from_selected().path)
 				# Remove changes?
@@ -2135,7 +2135,7 @@ class Frontend(glade.Frontend):
 					self.set_header("error", _("Unable to delete all partitions."), _("Why did it happen?!"))
 				else:
 					# Ok!
-					self.set_header("hold", _("You have some unsaved changes!"), _("Use the Apply button to save them."))
+					self.set_header("hold", _("You have some unsaved changes! Apply them to continue!"), _("Use the Apply button to save them."))
 					
 				if not self.get_device_from_selected().path in self.touched: self.touched.append(self.get_device_from_selected().path)
 				# Remove changes

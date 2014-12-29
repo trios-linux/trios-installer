@@ -36,9 +36,9 @@ MODULESDIR = os.path.join(MAINDIR, "modules/")
 uipath = os.path.join(MAINDIR, "services/glade/base_ui.glade")
 
 ### HEADER TYPES ###
-head_col_light = {"error":"#F07568","info":"#729fcf","ok":"#73d216","hold":"#f57900"}
+head_col_light = {"error":"#950E00","info":"#3E78B5","ok":"#3AA606","hold":"#CC5A00"}
 #head_col = {"error":"#a40000", "info":"#204a87", "ok":"#4e9a06", "hold":"#ce5c00"}
-head_col = {"error":"#a40000","info":"#204a87","ok":"#4e9a06","hold":"#ce5c00"}
+head_col = {"error":"#CC0000","info":"#3D8CFF","ok":"#56A807","hold":"#CC5A00"}
 head_ico = {"info":"info","error":"error","ok":"gtk-apply","hold":"system-run"}
 
 class Service(linstaller.core.service.Service):

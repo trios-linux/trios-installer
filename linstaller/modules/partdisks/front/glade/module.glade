@@ -2007,8 +2007,9 @@ option for your system.</property>
                       <object class="GtkToolButton" id="add_button">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="tooltip_text" translatable="yes">Add partition</property>
-                        <property name="label" translatable="yes">Add partition</property>
+                        <property name="tooltip_text" translatable="yes">Add new partition</property>
+                        <property name="is_important">True</property>
+                        <property name="label" translatable="yes">New</property>
                         <property name="use_underline">True</property>
                         <property name="stock_id">gtk-add</property>
                       </object>
@@ -2022,7 +2023,8 @@ option for your system.</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="tooltip_text" translatable="yes">Remove partition</property>
-                        <property name="label" translatable="yes">Remove partition</property>
+                        <property name="is_important">True</property>
+                        <property name="label" translatable="yes">Remove</property>
                         <property name="use_underline">True</property>
                         <property name="stock_id">gtk-remove</property>
                       </object>
@@ -2051,6 +2053,7 @@ option for your system.</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="tooltip_text" translatable="yes">Back</property>
+                        <property name="is_important">True</property>
                         <property name="label" translatable="yes">Back</property>
                         <property name="use_underline">True</property>
                         <property name="stock_id">gtk-go-back</property>
@@ -2091,7 +2094,7 @@ option for your system.</property>
                         <property name="can_focus">False</property>
                         <property name="tooltip_text" translatable="yes">Advanced options</property>
                         <property name="is_important">True</property>
-                        <property name="label" translatable="yes">Advanced options</property>
+                        <property name="label" translatable="yes">Advanced</property>
                         <property name="use_underline">True</property>
                         <property name="stock_id">gtk-preferences</property>
                       </object>
@@ -2163,6 +2166,7 @@ option for your system.</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="tooltip_text" translatable="yes">Refresh</property>
+                        <property name="is_important">True</property>
                         <property name="label" translatable="yes">Refresh</property>
                         <property name="use_underline">True</property>
                         <property name="stock_id">gtk-refresh</property>
@@ -2177,7 +2181,8 @@ option for your system.</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="tooltip_text" translatable="yes">Apply</property>
-                        <property name="label" translatable="yes">Apply</property>
+                        <property name="is_important">True</property>
+                        <property name="label" translatable="yes">Apply </property>
                         <property name="use_underline">True</property>
                         <property name="stock_id">gtk-apply</property>
                       </object>

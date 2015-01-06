@@ -1,3 +1,11 @@
+linstaller (6.1.2~trios18) testing; urgency=medium
+
+  * Updated partitiong module, colors, buttons & labels improved.
+  * Updated clean module
+  * Updated .remove file
+
+ -- Filip Danilovic <filip@openmailbox.org>  Tue, 06 Jan 2015 23:19:00 +0100
+
 linstaller (6.1.2~trios17.1) testing; urgency=medium
 
   * Updated trios.packages.remove ( added live-config-linstaller,

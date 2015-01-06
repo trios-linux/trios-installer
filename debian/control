@@ -44,18 +44,6 @@ Description: Modular GNU/Linux distribution installer -- command line frontend
  .
  This package contains the command-line frontend.
 
-Package: linstaller-frontend-cli-openrc
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-progressbar
-Description: Modular GNU/Linux distribution installer -- command line frontend
- linstaller is a modular and preseedable GNU/Linux distribution
- installer, written in python.
- .
- It is Semplice Linux-oriented, but thanks to its configuration
- system, can be adapted to many Live distributions.
- .
- This package contains the command-line frontend, configured for TRIOS openrc.
-
 Package: linstaller-frontend-glade
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, keeptalking (>= 2.21.0), pastebinit, python-gi, gir1.2-gtk-3.0, python-notify2
@@ -68,18 +56,6 @@ Description: Modular GNU/Linux distribution installer -- gtk3 frontend
  .
  This package contains the GTK+3 frontend.
 
-Package: linstaller-frontend-glade-openrc
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, keeptalking (>= 2.21.0), pastebinit, python-gi, gir1.2-gtk-3.0, python-notify2
-Description: Modular GNU/Linux distribution installer -- gtk3 frontend
- linstaller is a modular and preseedable GNU/Linux distribution
- installer, written in python.
- .
- It is Semplice Linux-oriented, but thanks to its configuration
- system, can be adapted to many Live distributions.
- .
- This package contains the GTK+3 frontend for TRIOS openrc.
- 
 Package: linstaller-modules-base
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, debconf, keeptalking, bricks, python-keeptalking, python-libbricks, python-t9n, python-parted, python-apt,
@@ -112,19 +88,6 @@ Description: Modular GNU/Linux distribution installer -- trios configuration
  .
  This package contains the linstaller configuration files to
  install Semplice Linux.
-
-Package: linstaller-config-trios-openrc
-Architecture: all
-Depends: linstaller (= ${binary:Version}), linstaller-modules-base (= ${binary:Version})
-Description: Modular GNU/Linux distribution installer -- trios configuration
- linstaller is a modular and preseedable GNU/Linux distribution
- installer, written in python.
- .
- It is Semplice Linux-oriented, but thanks to its configuration
- system, can be adapted to many Live distributions.
- .
- This package contains the linstaller configuration files to
- install TRIOS Linux with openrc.
 
 Package: live-config-linstaller
 Architecture: all

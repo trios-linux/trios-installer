@@ -13,7 +13,7 @@ linstaller-session
 live-config-linstaller
 live-config
 live-config-doc
-live-config-systemd
+live-config-sysvinit
 bricks
 quodlibet
 quodlibet-plugins

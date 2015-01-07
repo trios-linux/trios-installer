@@ -2074,7 +2074,7 @@ option for your system.</property>
                       </packing>
                     </child>
                     <child>
-                      <object class="GtkSeparatorToolItem" id="toolbar_separator">
+                      <object class="GtkSeparatorToolItem" id="toolbar_separator2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                       </object>

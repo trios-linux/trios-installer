@@ -33,7 +33,7 @@ class Install(module.Install):
 		if os.path.exists("/lib/live"):
 			shutil.rmtree("/lib/live")
 			
-		if os.patch.exists("/live-build"):
+		if os.path.exists("/live-build"):
 			shutil.rmtree("/live-build")
 
 class Module(module.Module):

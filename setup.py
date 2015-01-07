@@ -48,7 +48,7 @@ def search_for_glade():
 data, symlinks = search_for_glade()
 data_files = [
 	("/usr/bin", ["linstaller_wrapper.sh", "linstaller_crash_wrapper.sh", "session/linstaller_session.sh", "mount_nolive.sh", "copy-install-log.sh"]),
-	("/etc/linstaller", ["config/trios", "config/trios-base", "config/trios.packages-remove"]),
+	("/etc/linstaller", ["config/trios", "config/trios-base"]),
 	("/usr/share/applications", ["linstaller.desktop"]),
 	("/usr/share/xsessions", ["session/linstaller.desktop"]),
 ]

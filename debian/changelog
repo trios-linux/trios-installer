@@ -1,3 +1,7 @@
+linstaller (6.1.2~trios18.2) testing; urgency=medium
+* Fix one more typo, in clean module this time...
+-- Filip Danilovic <filip@openmailbox.org> Wed, 07 Jan 2015 01:26:00 +0100
+
 linstaller (6.1.2~trios18.1) testing; urgency=medium
 
   * Fix a crash, caused by typo in partdisks module.glade.

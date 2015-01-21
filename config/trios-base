@@ -24,10 +24,6 @@ autoremove = True
 
 [module:bootloader]
 bootloader = grub
-# Workaround to get systemd working, see
-# https://github.com/semplice/meta/commit/e5399d0523761eec3505da24add52cebc44f5452
-# for more details.
-custom_init = /lib/systemd/systemd
 
 [module:userhost]
 hostname = trios

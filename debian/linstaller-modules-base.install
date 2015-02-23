@@ -19,6 +19,8 @@
 /usr/share/linstaller/linstaller/modules/bricks
 /usr/share/linstaller/linstaller/modules/supportrepo
 /usr/share/linstaller/linstaller/modules/virtualpartitions
+/usr/share/linstaller/linstaller/modules/finish
+
 
 /usr/share/linstaller/linstaller/core/libmodules/chroot
 /usr/share/linstaller/linstaller/core/libmodules/partdisks

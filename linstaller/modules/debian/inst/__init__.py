@@ -34,7 +34,12 @@ class Install(module.Install):
 		m.sexec("apt-get remove --yes --force-yes --purge %s" % " ".join(pkgs))
 
 	def autoremove(self):
-		""" Runs apt-get autoremove """
+		""" Mark lvm2 as manually installed for now, and run apt-get autoremove """
+
+		try:
+			m.sexec("apt-mark manual lvm2")
+		except:
+			pass
 
 		if not self.moduleclass.settings["autoremove"]:
 			pass

@@ -4,32 +4,32 @@ linstaller (6.1.2~trios18.6) testing; urgency=medium
   * Merge new finish module from upstream.
   * Don't update initramfs through fstab module, finish module does it now.
 
- -- Filip Danilovic <filip@openmailbox.org> Mon, 23 Feb 2015 22:04:00 +0100
+ -- Filip Danilovic <filip@openmailbox.org>  Mon, 23 Feb 2015 22:04:00 +0100
 
 linstaller (6.1.2~trios18.5) testing; urgency=medium
 
   * Merge upstream fix for GRUB.
     Fixes install to MBR issue when LVM is used.
 
- -- Filip Danilovic <filip@openmailbox.org> Mon, 23 Feb 2015 03:00:00 +0100
+ -- Filip Danilovic <filip@openmailbox.org>  Mon, 23 Feb 2015 03:00:00 +0100
 
 linstaller (6.1.2~trios18.4) testing; urgency=medium
 
   * Merge upstream fix for partdisks. Fixes refresh issue when LVM is used.
 
- -- Filip Danilovic <filip@openmailbox.org> Mon, 23 Feb 2015 02:35:00 +0100
+ -- Filip Danilovic <filip@openmailbox.org>  Mon, 23 Feb 2015 02:35:00 +0100
 
 linstaller (6.1.2~trios18.3) testing; urgency=medium
 
   * Remove .remove file, it'll be kept separate from now on.
 
- -- Filip Danilovic <filip@openmailbox.org> Wed, 07 Jan 2015 02:26:00 +0100
+ -- Filip Danilovic <filip@openmailbox.org>  Wed, 07 Jan 2015 02:26:00 +0100
 
 linstaller (6.1.2~trios18.2) testing; urgency=medium
 
   * Fix one more typo, in clean module this time...
 
- -- Filip Danilovic <filip@openmailbox.org> Wed, 07 Jan 2015 01:26:00 +0100
+ -- Filip Danilovic <filip@openmailbox.org>  Wed, 07 Jan 2015 01:26:00 +0100
 
 linstaller (6.1.2~trios18.1) testing; urgency=medium
 

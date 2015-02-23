@@ -1,3 +1,9 @@
+linstaller (6.1.2~trios18.4) testing; urgency=medium
+
+  * Merge upstream fix for partdisks. Fixes refresh issue when LVM is used.
+  
+ -- Filip Danilovic <filip@openmailbox.org> Mon, 23 Feb 2015 02:35:00 +0100
+
 linstaller (6.1.2~trios18.3) testing; urgency=medium
 
   * Remove .remove file, it'll be kept separate from now on.

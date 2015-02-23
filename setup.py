@@ -150,6 +150,9 @@ distrib = setup(name='linstaller',
       "linstaller.modules.userhost.front",
       "linstaller.modules.userhost.front.glade",
       
+	  "linstaller.modules.finish",
+	  "linstaller.modules.finish.inst",
+
       "linstaller.modules.welcome",
       "linstaller.modules.welcome.front",
       "linstaller.modules.welcome.front.glade",

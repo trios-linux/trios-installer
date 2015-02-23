@@ -1,6 +1,14 @@
+linstaller (6.1.2~trios18.6) testing; urgency=medium
+
+  * Mark lvm2 as manually installed, in Debian module for now.
+  * Merge new finish module from upstream.
+  * Don't update initramfs through fstab module, finish module does it now.
+
+ -- Filip Danilovic <filip@openmailbox.org> Mon, 23 Feb 2015 22:04:00 +0100
+
 linstaller (6.1.2~trios18.5) testing; urgency=medium
 
-  * Merge upstream fix for GRUB. 
+  * Merge upstream fix for GRUB.
     Fixes install to MBR issue when LVM is used.
 
  -- Filip Danilovic <filip@openmailbox.org> Mon, 23 Feb 2015 03:00:00 +0100

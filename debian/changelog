@@ -1,4 +1,4 @@
-linstaller (6.1.2~trios18.4) testing; urgency=medium
+linstaller (6.1.2~trios18.5) testing; urgency=medium
 
   * Merge upstream fix for GRUB. 
     Fixes install to MBR issue when LVM is used.

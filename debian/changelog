@@ -1,3 +1,9 @@
+linstaller (6.1.2~trios19) testing; urgency=medium
+
+  * Enable update module.
+
+ -- Filip Danilovic <filip@openmailbox.org>  Mon, 16 Mar 2015 21:34:00 +0100
+
 linstaller (6.1.2~trios18.6) testing; urgency=medium
 
   * Mark lvm2 as manually installed, in Debian module for now.
